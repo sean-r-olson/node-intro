@@ -1,23 +1,6 @@
-const characters = [
-    {
-        name: "Spike",
-        show: "Cowboy Bebop",
-    },
-    {
-        name: "L",
-        show: "Death Note"
-    },
-    {
-        name: "Goku",
-        show: "Dragonball Z"
-    },
-    {
-        name: "Gon",
-        show: "Hunter X Hunter"
-    }
-];
+const characterList = require ('./anime.module');
 
-for (character of characters) {
+for (character of characterList) {
     console.log(`${character.name} is from ${character.show}`)
 }
 
